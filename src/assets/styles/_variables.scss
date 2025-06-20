@@ -1,0 +1,64 @@
+:root {
+  --transition-basic: 0.5s ease;
+
+  /* Colors */
+  --bg-main: #ffffff;
+
+
+  --color-primary: #0FFD9F;
+    // --color-primary-variant: #02F394;
+    // --color-secondary: #F5F3EB;
+
+  --color-content-100: #111212;
+  --color-content-90: #353538;
+  --color-content-80: #5f5f62;
+  --color-content-40: #a1a2a5;
+  --color-content-100-inv: #ffffff;
+  --color-content-80-inv: rgba(255, 255, 255, 0.8);
+
+  --color-alpha-12-inv: rgba(255, 255, 255, 0.12);
+
+  // // Backgrounds
+
+  // --bg-scissors: hsl(39, 89%, 49%);
+  // --bg-scissors-additional: hsl(40, 84%, 53%);
+  // --bg-paper: hsl(230, 89%, 62%);
+  // --bg-paper-additional: hsl(230, 89%, 65%);
+  // --bg-rock: hsl(349, 71%, 52%);
+  // --bg-rock-additional: hsl(349, 70%, 56%);
+  // --bg-lizard: hsl(261, 73%, 60%);
+  // --bg-lizard-additional: hsl(261, 72%, 63%);
+  // --bg-spock: hsl(189, 59%, 53%);
+  // --bg-spock-additional: hsl(189, 58%, 57%);
+
+  // // Text
+  // --text-main: #fafcff;
+  // --text-dark: hsl(229, 25%, 31%);
+  // --text-score: hsl(229, 64%, 46%);
+  // --text-header-outline: hsl(217, 16%, 45%);
+
+  // /* ✍️ Typography */
+  --font-family: "Barlow Semi Condensed", sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  // --font-size-xs: 0.75rem;
+  --font-size-sm: 1rem;
+  --font-size-md: 1.25rem;
+  --font-size-lg: 1.75rem;
+  // --font-size-xl: 2rem;
+  // --font-size-xxl: 2.5rem;
+  // --font-size-xxxl: 3.5rem;
+
+  // --line-height: 3rem;
+
+  /* 📏 Spacing */
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+
+  // /* 🟦 Radius */
+  --border-radius: 2rem;
+}
