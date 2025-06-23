@@ -32,7 +32,7 @@ const computedClasses = computed(() => ({
   justify-content: center;
   white-space: nowrap;
   border-radius: var(--border-radius);
-  padding: var(--spacing-sm) var(--spacing-lg);
+  padding: var(--spacing-md) var(--spacing-lg);
   max-width: 100%;
   width: fit-content;
   height: fit-content;

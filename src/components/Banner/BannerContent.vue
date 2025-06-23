@@ -8,22 +8,22 @@
         {{ t('banner_subtitle') }}
       </p>
     </div>
-    <CustomButton :color="buttonColor" :text="t('join_our_team')" aria-label="Join our team" @click="clickedOnJoin" />
+    <UiButton :color="buttonColor" :text="t('start_your_journey')" aria-label="Start Your Journey" @click="clickedOnJoin" />
   </div>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
 
-import CustomButton from '@/components/CustomButton.vue'
-import MainTextAnimation from '@/components/LottieAnimation.vue'
+import UiButton from '@/components/ui/UiButton.vue'
+import MainTextAnimation from '@/components/ui/UiLottie.vue'
 import { type ButtonColor } from '@/types/Data.ts'
 
 
-import blackAnimationDataEN from '@/animation/main-text-en.json'
-import blackAnimationDataUK from '@/animation/main-text-uk.json'
-import whiteAnimationDataEN from '@/animation/main-text-en-white.json'
-import whiteAnimationDataUK from '@/animation/main-text-uk-white.json'
+import blackAnimationDataEN from '@/components/Banner/animation/main-text-en.json'
+import blackAnimationDataUK from '@/components/Banner/animation/main-text-uk.json'
+import whiteAnimationDataEN from '@/components/Banner/animation/main-text-en-white.json'
+import whiteAnimationDataUK from '@/components/Banner/animation/main-text-uk-white.json'
 
 import { useLocale } from '@/composables/useLocale'
 const { t, locale } = useLocale()

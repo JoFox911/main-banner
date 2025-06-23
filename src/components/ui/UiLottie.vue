@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 
-import { ref, onMounted, onBeforeUnmount, watch, type PropType } from 'vue';
+import { ref, onMounted, onBeforeUnmount, watch } from 'vue';
 import lottiePlayer, { type AnimationItem } from 'lottie-web';
 
 interface Props {
